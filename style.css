@@ -1,0 +1,128 @@
+html{
+    box-sizing: border-box;
+    background-color: #11009E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+h2, h4, p { 
+    margin: 0;
+    padding: 8px;
+    line-height: auto;
+}
+
+body{
+    padding: 150px;
+    display: grid;
+    place-content: center;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+#main-component{ 
+    width: 600px;
+    height: 400px;
+    color: #3e3e3e;
+    box-shadow: 2px 2px 30px 0px rgba(97,97,97,1);
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+#top-component{
+    width: 100%;
+    height: 45%;
+    background-color: #ECF2FF;
+    border-radius: 8px 8px 0px 0px;
+    padding: 25px;
+}
+
+#bottom-component{
+    width: 100%;
+    height: 55%;
+}
+
+#left-bottom-component{
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    background-color: #C4B0FF;
+    vertical-align: top;
+    border-radius: 0px 0px 0px 8px;
+    padding: 25px;
+    color: white;
+}
+
+#right-bottom-component{
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    background-color: #8696FE ;
+    vertical-align: top;
+    border-radius: 0px 0px 8px 0px;
+    padding: 25px;
+    color: white;
+}
+
+#top-component h2 {
+    color:#11009E;
+}
+
+#top-component h4 { 
+    color:#8696FE;
+}
+
+#top-component p{
+    color: #7a8391;
+    margin-bottom: 20px;
+}
+
+button{
+    background-color:#11009E;
+    border: #ECF2FF;
+    border-radius: 4px;
+    width: 100%;
+    height: 30px;
+    color:white;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #ECF2FF;
+    color: black;
+}
+
+#price{
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 4px;
+}
+#price-per, #price{
+    margin-left: 5px;
+    display: inline-block;
+}
+
+#left-bottom-component h4{
+    margin-bottom: 10px;
+}
+
+#pricing{
+    position: relative;
+    top: -3px;
+    font-size: 0.8rem;
+    opacity: 0.8;
+    margin-left: 5px;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+    font-size: 14px;
+    opacity: 0.8;
+    margin-left: 8px;
+    margin-top: 5px;
+}
